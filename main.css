@@ -16,12 +16,26 @@ button{
     padding:10px;
 }
 
+#titleHeader {
+    padding: 10px 20px; 
+    text-align: center; 
+    color: white; 
+}
+
+#siteTitle {
+    text-decoration: none; 
+    color: black;
+    font-size: 50px; 
+    font-weight: bold; 
+}
+
 #entryBox {
     display: flex;
     justify-content: center;
     align-items:center;
     height:300px;
     padding:10px;
+    padding-top:0px;
     
 }
 
@@ -42,8 +56,10 @@ form {
 
 #entryText {
     width:100%;
+    height: calc(100%-50px);
     box-sizing: border-box;
-    resize:vertical;
+    resize:none;
+    font-size:20px
 }
 
 #saveButton {
