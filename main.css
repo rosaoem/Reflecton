@@ -2,5 +2,11 @@
     display:grid;
     place-items: center;
     height:100vh;
+    align-content:center;
 
+}
+
+button{
+    margin:20px;
+    padding:10px;
 }
