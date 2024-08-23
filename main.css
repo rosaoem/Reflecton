@@ -30,6 +30,7 @@ button{
     height:60px;
     text-align: center;
     box-sizing:border-box;
+    background-color:#f6e5fe;
 }
 
 #siteTitle {
