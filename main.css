@@ -7,7 +7,7 @@
 
 }
 
-h2{
+h2 {
     text-align:center;
 }
 
@@ -16,17 +16,16 @@ button{
     padding:10px;
 }
 
-#titleHeader {
-    padding: 10px 20px; 
-    text-align: center; 
-    color: white; 
-}
-
 #siteTitle {
-    text-decoration: none; 
+    text-decoration:none;
     color: black;
     font-size: 50px; 
     font-weight: bold; 
+    text-align:center;
+    
+}
+#siteTitle:hover{
+    font-size:60px;
 }
 
 #entryBox {
@@ -59,9 +58,11 @@ form {
     height: calc(100%-50px);
     box-sizing: border-box;
     resize:none;
-    font-size:20px
+    font-size:20px;
 }
 
 #saveButton {
-    margin-top:5px;
+    margin-top:10px;
+    background-color:#f6e5fe;
+    font-size:20px;
 }
