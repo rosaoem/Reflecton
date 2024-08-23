@@ -68,6 +68,8 @@ form {
     display:flex;
     flex-direction:column;
     justify-content:center;
+    height:4000px;
+    width:1000px;
 }
 
 #entryText {
