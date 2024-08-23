@@ -66,3 +66,21 @@ form {
     background-color:#f6e5fe;
     font-size:20px;
 }
+
+.pastButton{
+    padding:5px;
+    margin:10px;
+    font-size:20px;
+    background-color:#f6e5fe
+}
+
+.entry {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.entry p {
+    margin: 5px 0;
+}
