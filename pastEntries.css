@@ -23,3 +23,32 @@
 .entry p {
     margin: 5px 0;
 }
+
+#entriesContainer {
+    padding: 20px;
+}
+
+#entriesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#entriesList li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#entriesList li button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#entriesList li button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

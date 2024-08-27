@@ -23,21 +23,37 @@ function saveEntry(){
 
 //load past entries
 function loadEntries(){
-    const entries = JSON.parse(localStorage.getItem('journalEntry')) || [];
+    console.log("Loading The Past..."); //using to debug
     const container = document.getElementById('entriesContainer');
+    if(!container){
+        return;
+    }
+    const entries = JSON.parse(localStorage.getItem('journalEntry')) || [];
+
+    container.innerHTML ='';
 
     //display each entry
-    entries.forEach(entry => {
+    entries.forEach((entry,index) => {
         const entryDiv = document.createElement('div');
         entryDiv.classList.add('entry');
         entryDiv.innerHTML = `
             <p><strong>Date:</strong> ${entry.date}</p>
             <p>${entry.text}</p>
+            <button class="deleteButton" onclick="deleteEntry(${index})">Delete</button>
+
         `;
 
         container.appendChild(entryDiv);
 
     });
+}
+
+//delete function
+function deleteEntry(index){
+    let entries = JSON.parse(localStorage.getItem('journalEntry')) || [];
+    entries.splice(index,1);
+    localStorage.setItem('journalEntry', JSON.stringify(entries));
+    loadEntries(); //reloading to show updated entries
 }
 
 //execute loadEntries function when past_entries.thml loads
