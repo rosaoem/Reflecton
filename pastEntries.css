@@ -6,11 +6,16 @@
     
 }
 
+h1{
+    text-align:center;
+    margin-top:30px;
+}
+
 .pastButton{
-    padding:5px;
-    margin:10px;
+    padding:10px;
+    margin:15px;
     font-size:20px;
-    background-color:#f6e5fe
+    background-color:#e6e6e6;
 }
 
 .entry {
@@ -18,37 +23,21 @@
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #e6e6e6;
 }
 .entry p {
     margin: 5px 0;
+    font-size:20px;
 }
 
 #entriesContainer {
     padding: 20px;
 }
 
-#entriesList {
-    list-style-type: none;
-    padding: 0;
+.deleteButton{
+    font-size:15px;
 }
 
-#entriesList li {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-#entriesList li button {
-    background-color: #dc3545; /* Red color for delete button */
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
 
-#entriesList li button:hover {
-    background-color: #c82333; /* Darker red on hover */
-}
+
