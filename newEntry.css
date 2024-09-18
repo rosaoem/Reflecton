@@ -59,4 +59,17 @@ form {
     font-size:30px;
 }
 
+#backButton {
+    margin-top:10px;
+    background-color:#e6e6e6;
+    font-size:30px;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    margin-top:10px;
+}
+
 

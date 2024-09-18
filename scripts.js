@@ -21,6 +21,10 @@ function saveEntry(){
     window.location.href = 'pastEntries.html';
 }
 
+function back(){
+    window.history.back();
+}
+
 //load past entries
 function loadEntries(){
     console.log("Loading The Past..."); //using to debug
