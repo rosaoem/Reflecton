@@ -1,10 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.getElementById('themeToggle');
+    const themeSwitch = document.getElementById('themeSwitch');
 
-    themeToggle.addEventListener('click', () => {
+    // Check for saved user preference and apply it
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        document.body.classList.toggle('dark-mode', savedTheme === 'dark');
+        themeSwitch.checked = savedTheme === 'dark'; // Set the checkbox state based on saved preference
+    }
+
+    themeSwitch.addEventListener('change', () => {
         document.body.classList.toggle('dark-mode');
         const isDarkMode = document.body.classList.contains('dark-mode');
-        themeToggle.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
-
+        
+        // Save user preference
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
     });
 });
