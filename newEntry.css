@@ -24,7 +24,7 @@
     height:300px;
     padding:10px;
     padding-top:0px;
-    background-color: #bbbdbe;
+   
     
 }
 
@@ -51,6 +51,7 @@ form {
     box-sizing: border-box;
     resize:none;
     font-size:20px;
+    background-color: #bbbdbe;
 }
 
 #saveButton {
