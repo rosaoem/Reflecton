@@ -15,7 +15,8 @@ Reflecton is a personal journaling web application desgined for individuals who 
 - **View Past Entries:** Reflecton stores all journal entries on a seperate page, sorted by the date and time that they were added
 - **Delete Entries:** Users can delete unwanted entries
 - **Responsive Design** THe layout adapts to different screen sizes, ensuring a smooth experience on mobile devices
-- **LocalStorage Persistence:** Entries are saved using LocalStorage, meaning they persist even after the page is refreshed
+- **LocalStorage Persistence:** Entries and theme choice are saved using LocalStorage, meaning they persist even after the page is refreshed
+- **Light and Dark Mode Theme:** Users can toggle between light mode and dark mode according to their preference
 
 ## Technologies
 
