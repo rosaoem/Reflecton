@@ -6,35 +6,50 @@
     
 }
 
-h1{
+h1 {
     text-align:center;
     margin-top:30px;
+    font-size: 50px;
 }
 
 .pastButton{
     padding:10px;
-    margin:15px;
+    margin: 2px;
     font-size:20px;
 }
 
+
+main {
+    margin-left:100px;
+    margin-right:100px;
+}
 .entry {
+    position: relative;
     border: 1px solid #ddd;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
 }
+
 .entry p {
     margin: 5px 0;
     font-size:20px;
 }
 
-#entriesContainer {
-    padding: 20px;
+.deleteButton{
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    margin-top:10px;
+    font-size:12px;
+    padding:5px 10px;
+    width:auto;
+    height:auto;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.deleteButton{
-    font-size:15px;
-}
+
 
 
 

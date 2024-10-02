@@ -42,9 +42,9 @@ function loadEntries(){
         entryDiv.classList.add('entry');
         entryDiv.innerHTML = `
             <p><strong>Date:</strong> ${entry.date}</p>
-            <p>${entry.text}</p>
             <button class="deleteButton" onclick="deleteEntry(${index})">Delete</button>
-
+            <p>${entry.text}</p>
+            
         `;
 
         container.appendChild(entryDiv);

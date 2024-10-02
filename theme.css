@@ -4,6 +4,8 @@
     --button-bg-color:#f2f2f2;
     --button-hover-color:#e0e0e0;
     --button-text-color:#333;
+    --entry-bg-color: #bbbdbe;
+    --siteTitle-color: #333;
 
 }
 
@@ -13,8 +15,17 @@ body.dark-mode{
     --button-bg-color:#333;
     --button-hover-color:#555;
     --button-text-color:#f2f2f2;
+    --entry-bg-color: #444;
+    --siteTitle-color: #f2f2f2;
 }
 
+#entryText {
+    background-color: var(--entry-bg-color);
+}
+
+#siteTitle{
+    color:var(--siteTitle-color);
+}
 body{
     background-color:var(--background-color);
     color:var(--text-color);
