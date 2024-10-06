@@ -25,13 +25,13 @@
     
 }
 
-form {
+/*form {
     display: flex;
     flex-direction: column; 
     width: 100%; 
     height: 100%;
     position: relative; 
-}
+}*/
 
 /*.form-content{
     flex:1;
@@ -71,6 +71,7 @@ form {
 @media (max-width: 600px){
     #entryBox {
         width:90%;
+        padding:10px;
     }
 
     #entryText{
@@ -78,7 +79,7 @@ form {
         height:200px;
     }
 
-    #saveButton {
+    #saveButton, #backButton {
         width:100%;
         font-size:14px;
 

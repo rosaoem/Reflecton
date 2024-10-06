@@ -110,4 +110,15 @@ body.darkMode #lightModeLabel,
 body.lightMode #darkModeLabel {
     color:#777;
 }
+
+@media (max-width:600px){
+    .theme-toggle {
+        top:10px;
+        right:10px;
+    }
+
+    #lightModeLabel, #darkModeLabel{
+        font-size:12px;
+    }
+}
  
