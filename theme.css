@@ -16,11 +16,13 @@ body.dark-mode{
     --button-hover-color:#555;
     --button-text-color:#f2f2f2;
     --entry-bg-color: #444;
+    --entry-text-color:#f5f5f5;
     --siteTitle-color: #f2f2f2;
 }
 
 #entryText {
     background-color: var(--entry-bg-color);
+    color: var(--entry-text-color);
 }
 
 #siteTitle{
